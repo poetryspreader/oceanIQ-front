@@ -1,0 +1,38 @@
+:root {
+  /* Color Palette*/
+  --main-color-white: rgba(255, 255, 255, 1);
+  --main-color-black: rgb(5, 5, 5);
+  --main-color-dark-grey: rgb(38, 38, 38);
+  --main-color-grey-op-0-1: rgba(222, 222, 222, 0.1);
+  --main-color-light-grey: rgba(210, 210, 210, 1);
+  --main-color-light-grey-op-0-5: rgba(210, 210, 210, 0.50);
+
+  /* Fonts */
+  --main-font-montserrat: 'Montserrat', sans-serif;
+  --main-font-playfair-display: 'Playfair Display', serif;
+  --main-font-roboto-condensed: 'Roboto Condensed', sans-serif;
+  --main-font-rubik: 'Rubik', sans-serif;
+
+  //header
+  --main-font-fira-sans-condensed: 'Fira Sans Condensed', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--main-color-white);
+  min-height: 100vh;
+  color: var(--main-color-black);
+  font-family: var(--main-font-zilla-slab);
+  font-weight: 300;
+}
+
+.v-row {
+  margin: 0 !important;
+}

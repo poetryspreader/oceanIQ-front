@@ -1,0 +1,21 @@
+@import './base.scss';
+
+/* <-- Fonts -->  */
+
+// OFFSIDE
+@import url("https://fonts.googleapis.com/css2?family=Offside&display=swap");
+
+#app {
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1455px;
+  z-index: 1;
+}
