@@ -2,5 +2,29 @@
   "header": {
     "sign-in": "Sign in",
     "sign-up": "Sign up"
+  },
+  "register": {
+    "title": "Sign up to OceanIQ",
+    "btn": "Continue",
+    "email": "Email",
+    "password": {
+      "label": "Password",
+      "placeholder": "6+ characters"
+    },
+    "errors": {
+      "emailRequired": "Email can't be blank",
+      "passwordRequired": "Password can't be blank",
+      "emailInvalid": "Email is invalid",
+      "passwordValidationRules": {
+        "shortPass": "At least 6 characters.",
+        "upperPass": "Contains one uppercase letter.",
+        "lowerPass": "Contains one lowercase letter.",
+        "digitPass": "Contains one digit",
+        "specPass": "Contains one special character "
+      }
+    },
+    "switchToSignIn": "Already have an account?",
+    "agreement": "By creating an account you agree with our Terms of Service, Privacy Policy, and our default Notification Settings.",
+    "redirect": "Already have an account?"
   }
 }

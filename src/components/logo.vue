@@ -33,8 +33,7 @@
   .label {
     margin: 0 10px 0 10px;
     color: white;
-    font-family: "Offside", sans-serif;
-
+    font-family: var(--main-font-offside);
   }
 }
 </style>

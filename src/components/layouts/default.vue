@@ -10,7 +10,7 @@
     <div class="header__actions">
       <a
         class='sign-up'
-        href=''
+        href='/register'
       >
         {{ $t('header.sign-up') }}
       </a>
