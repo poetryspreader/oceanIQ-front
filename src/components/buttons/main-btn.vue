@@ -21,8 +21,8 @@ export default {
 <style lang='scss'>
 .button {
   display: flex;
+  margin-right: 0;
   align-items: center;
-  margin: 0 auto;
   padding: 20px 30px;
   height: 30px;
   background-color: var(--main-color-black);
@@ -31,6 +31,7 @@ export default {
   transition: all 0.2s;
   text-decoration: none;
   font-weight: 400;
+  white-space: nowrap;
   color: var(--main-color-white);
   &:hover {
     scale: 1.07;

@@ -4,7 +4,7 @@
     "sign-up": "Sign up"
   },
   "register": {
-    "title": "Sign up to OceanIQ",
+    "title": "Sign up",
     "btn": "Continue",
     "email": "Email",
     "password": {
@@ -25,6 +25,16 @@
     },
     "switchToSignIn": "Already have an account?",
     "agreement": "By creating an account you agree with our Terms of Service, Privacy Policy, and our default Notification Settings.",
-    "redirect": "Already have an account?"
+    "redirect": {
+      "body": "Already have an account?",
+      "link": "Sign in"
+    }
+  },
+  "login": {
+    "title": "Sign in",
+    "redirect": {
+      "body": "Don't have an account?",
+      "link": "Sign up"
+    }
   }
 }

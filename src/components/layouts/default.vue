@@ -1,12 +1,6 @@
 <template>
   <div class="header">
-    <font-awesome-icon
-      class="header__burger"
-      icon="fa-solid fa-bars"
-      aria-hidden="true"
-    />
-    <logo/>
-    <search-bar />
+    <telegram />
     <div class="header__actions">
       <a
         class='sign-up'
@@ -22,34 +16,39 @@
   </div>
   <slot></slot>
 </template>
-<script setup>
+<script>
 import mainButton from '@/components/buttons/main-btn.vue'
-import searchBar from '@/components/search-bar.vue'
 import logo from '@/components/logo.vue'
-
+import telegram from '@/components/icons/telegram.vue'
+export default {
+  components: {
+    mainButton, logo, telegram
+  }
+}
 </script>
 <style lang="scss">
 .header {
   position: fixed;
+  top: 0;
+  left: 0;
   padding: 10px 30px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
-  .logo {
-    margin: 0 0 0 30px;
-  }
   &__burger {
     scale: 1.4;
   }
   &__actions {
-    position: absolute;
+    margin: 0 0 0 30px;
     right: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 20px;
     .sign-up {
+      white-space: nowrap;
       text-decoration: none;
       color: var(--main-color-black);
       transition: all 1s;

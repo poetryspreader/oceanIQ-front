@@ -47,7 +47,7 @@ export default {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 0 0 0 50px;
   width: 100%;
-  max-width: 800px;
+  max-width: 700px;
   border: 2px solid transparent;
   transition: all 0.2s;
   &:hover {
